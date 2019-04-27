@@ -1,0 +1,5 @@
+zuul:
+  routes:
+    demo:
+      path: /v1/proxy/**
+      url: http://pivotal.io
