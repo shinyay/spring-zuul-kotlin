@@ -3,3 +3,12 @@ zuul:
     demo:
       path: /v1/proxy/**
       url: http://pivotal.io
+server:
+  port: 8081
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+spring:
+  application:
+    name: zuul-proxy
