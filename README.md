@@ -15,6 +15,45 @@ Overview
 
 ## Usage
 
+### Run Eureka Server
+
+- [shinyay/spring-eureka-server](https://github.com/shinyay/spring-eureka-server)
+
+```
+./gradlew clean bootRun -x test
+```
+
+- [Eureka dashboard - http://localhost:8761](http://localhost:8761)
+
+### Run Eureka Client with Random Port
+
+- [shinyay/spring-eureka-kotlin](https://github.com/shinyay/spring-eureka-kotlin)
+
+```
+./gradlew clean bootRun -x test
+```
+
+### Feign Client
+
+- [shinyay/spring-eureka-feign](https://github.com/shinyay/spring-eureka-feign)
+
+```
+./gradlew clean bootRun -x test
+```
+
+### Zuul Proxy
+
+```
+./gradlew clean bootRun -x test
+```
+
+### Access Application
+
+```
+$ curl http://localhost:8081/eureka-client/greeting
+$ curl http://localhost:8081/eureka-feign-client/greeting
+```
+
 ## Installation
 
 ## Licence
