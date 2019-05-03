@@ -1,4 +1,4 @@
-# Name
+# Spring Zuul Proxy
 
 Overview
 
